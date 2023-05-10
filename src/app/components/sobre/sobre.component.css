@@ -1,0 +1,56 @@
+div {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 3, 19, 1) 32%,
+    rgba(231, 3, 19, 1) 72%,
+    rgba(17, 0, 3, 1) 100%,
+    rgba(231, 3, 19, 1) 100%
+  );
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+h1,
+h2 {
+  color: white;
+  margin: 0px 20px 20px 20px;
+  font-family: marvel;
+}
+p {
+  color: white;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 900px) {
+  div {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(231, 3, 19, 1) 32%,
+      rgba(231, 3, 19, 1) 72%,
+      rgba(17, 0, 3, 1) 100%,
+      rgba(231, 3, 19, 1) 100%
+    );
+    width: 100%;
+    height: auto;
+    margin-top: 288px;
+    padding-bottom: 20px;
+  }
+  h1,
+  h2 {
+    padding-top: 20px;
+    color: white;
+    margin: 0px 20px 20px 20px;
+    font-family: marvel;
+    font-size: 25px;
+  }
+  p {
+    color: white;
+    margin: 20px;
+    line-height: 1.5;
+  }
+}

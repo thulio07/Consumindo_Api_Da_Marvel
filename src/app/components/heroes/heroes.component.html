@@ -1,0 +1,11 @@
+<div>
+    <button class="btn" (click)="get()">CLIQUE AQUI</button>
+    <table *ngIf="img">
+        <ul *ngFor="let image of img">
+            <li> <img src="{{image.thumbnail.path}}.{{image.thumbnail.extension}} " height="300px"
+                    width="300px"><br><br><br>
+                <div class="name">{{image.name}}</div>
+            </li>
+        </ul>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: marvel;
+  src: url(assets/fontes/Marvel.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: marvel2;
+  src: url(assets/fontes/Marvel2.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
